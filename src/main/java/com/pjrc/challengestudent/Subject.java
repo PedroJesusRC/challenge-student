@@ -1,19 +1,10 @@
 package com.pjrc.challengestudent;
 
-import lombok.AllArgsConstructor;
+import lombok.Value;
 
-@AllArgsConstructor
+@Value
 class Subject {
 
   String name;
   Double grade;
-
-  public String getName() {
-    return null;
-  }
-
-  public Double getGrade() {
-    return null;
-  }
-
 }
